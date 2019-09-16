@@ -1,9 +1,0 @@
-type Token {
-  token: String
-}
-
-type Query {
-  requestToken(id: String!): Token!
-  makeRequest: Boolean!
-  hello(name: String): String
-}
