@@ -1,0 +1,6 @@
+{
+  "restartable": "rs",
+  "exec": "ts-node ./src/index.ts",
+  "ext": "ts,graphql",
+  "ignore": ["/node_modules"]
+}
